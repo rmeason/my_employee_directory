@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 import './App.css';
 
@@ -9,14 +9,17 @@ import Container from "./components/Container";
 import Body from "./components/Body";
 
 function App() {
-  return (
-    <div className="App">
-      <Container>
-        <Header />
-        <Body />
-      </Container>
-    </div>
-  );
-}
+
+    return(
+      <div className="App">
+        <Container>
+          <Header />
+          <Body />
+        </Container>
+      </div>
+    );
+  }
 
 export default App;
+
+
